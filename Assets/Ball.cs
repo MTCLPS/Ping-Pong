@@ -6,6 +6,7 @@ public class Ball : MonoBehaviour {
     public float speed = 30;
 	// Use this for initialization
 	void Start () {
+		//Launch the ball to the right
         GetComponent<Rigidbody2D>().velocity = Vector2.right * speed;
     }
 
